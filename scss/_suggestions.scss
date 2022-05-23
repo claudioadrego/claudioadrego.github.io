@@ -1,0 +1,18 @@
+.suggestions {
+    padding-bottom: 44px;
+    .wrapper {
+        article {
+            text-align: center;
+            h2 {
+                font-size: 24px;
+                font-style: italic;
+                color: $secondary-grey;
+                font-family: Georgia;
+                cursor: pointer;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

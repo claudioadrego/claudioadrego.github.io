@@ -1,0 +1,50 @@
+.numb_page {
+    padding-top: 70px;
+    padding-bottom: 142px;
+    .wrapper {
+        h1 {
+            font-size: 25px;
+            margin-bottom: 17px;
+            text-transform: uppercase;
+            font-weight: bold;
+            text-align: center;
+        }
+        #myDIV {
+            text-align: center;
+            
+            .btn {
+                background-color: $light-color;
+                border: 1px solid $dark-color;
+                margin: 10px 10px;
+                font-size: 14px;
+                width: 32px;
+                height: 32px;
+                cursor: pointer;
+                &:hover {
+                    background-color: $dark-color;
+                    color: $light-color;
+                }
+                &.active {
+                    background-color: $dark-color;
+                    color: $light-color;
+                    
+                }
+                             
+            }
+        }
+        .bttn {
+            position: relative;
+            left: 527px;
+            margin-top: 65px;
+            @include sm {
+                left: 172px;
+            }
+        }
+    }
+}
+
+.select-size {
+    background-color: $dark-color;
+    color: $light-color;
+}
+

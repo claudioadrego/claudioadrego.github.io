@@ -1,0 +1,58 @@
+.slider {
+    padding: 120px 0;
+    .wrapper {
+        .gallery {
+            div {
+                img {
+                    width: 205px;
+                    height: 334px;
+                    @include sm {
+                        transition: transform .2s;
+                        &:hover {
+                        -ms-transform: scale(1.5); 
+                        -webkit-transform: scale(1.5); 
+                        transform: scale(1.5);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.slick-prev {
+    position: absolute;
+    top: 50%;
+    left: -116px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    width: 50px;
+    height: 36px;
+    line-height: 100px;
+    text-indent: -9999px;
+    background-image: url(https://www.cushionpros.com/img/left.png);
+    background-position: center;
+    border: 0;
+    @include sm {
+        display: none;
+    }
+
+}
+
+.slick-next {
+    position: absolute;
+    top: 50%;
+    right: -116px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    width: 50px;
+    height: 36px;
+    line-height: 100px;
+    text-indent: -9999px;
+    background-image: url(https://i.ibb.co/d7FmXND/right.png);
+    background-position: center;
+    border: 0;
+    @include sm {
+        display: none;
+    }
+}
