@@ -1,0 +1,1012 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 6, ../bitpull/website/scss/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 27, ../bitpull/website/scss/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 31, ../bitpull/website/scss/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 34, ../bitpull/website/scss/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 37, ../bitpull/website/scss/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 40, ../bitpull/website/scss/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 45, ../bitpull/website/scss/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 49, ../bitpull/website/scss/_reset.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 52, ../bitpull/website/scss/_reset.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 56, ../bitpull/website/scss/_reset.scss */
+html, body {
+  position: relative;
+  height: 100%;
+}
+
+/* line 1, ../bitpull/website/scss/_base.scss */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* line 4, ../bitpull/website/scss/_base.scss */
+section {
+  padding: 0 2%;
+}
+
+/* line 8, ../bitpull/website/scss/_base.scss */
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto 0 auto;
+  height: 100%;
+}
+
+/* line 13, ../bitpull/website/scss/_base.scss */
+.bttn {
+  letter-spacing: 0.03em;
+  text-indent: 1px;
+  font-size: 15px;
+  border: 1px solid #000;
+  color: #000;
+  padding: 0 30px 0 30px;
+  min-width: 227px;
+  line-height: 62px;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  background-color: white;
+}
+
+@media (min-width: 0) and (max-width: 512px) {
+  /* line 13, ../bitpull/website/scss/_base.scss */
+  .bttn {
+    padding: 0 10px;
+    font-size: 15px;
+    min-width: 115px;
+  }
+}
+
+/* line 32, ../bitpull/website/scss/_base.scss */
+.bttn:hover {
+  background-color: #000;
+  color: white;
+}
+
+/* line 36, ../bitpull/website/scss/_base.scss */
+.bttn.transparent {
+  background-color: transparent;
+  color: #000;
+}
+
+/* line 39, ../bitpull/website/scss/_base.scss */
+.bttn.transparent:hover {
+  background-color: #000;
+  color: white;
+}
+
+/* line 45, ../bitpull/website/scss/_base.scss */
+.bttn.btn-light {
+  border: 1px solid #B58B20;
+  background-color: #B58B20;
+  color: white;
+}
+
+/* line 49, ../bitpull/website/scss/_base.scss */
+.bttn.btn-light:hover {
+  background-color: #000;
+  color: white;
+}
+
+/* line 1, ../bitpull/website/scss/_hero.scss */
+.hero {
+  height: 70vh;
+  width: 100%;
+  /*background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+
+/* line 9, ../bitpull/website/scss/_hero.scss */
+.hero .wrapper article {
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative;
+}
+
+/* line 14, ../bitpull/website/scss/_hero.scss */
+.hero .wrapper article h1 {
+  font-size: 78px;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+
+@media (min-width: 0) and (max-width: 512px) {
+  /* line 14, ../bitpull/website/scss/_hero.scss */
+  .hero .wrapper article h1 {
+    font-size: 55px;
+  }
+}
+
+/* line 24, ../bitpull/website/scss/_hero.scss */
+.hero .wrapper article h2 {
+  font-family: Georgia;
+  font-style: italic;
+  font-size: 23px;
+  letter-spacing: 0.05em;
+  text-indent: 1px;
+  margin-bottom: 28px;
+  color: #857F7F;
+  font-weight: bold;
+}
+
+@media (min-width: 0) and (max-width: 512px) {
+  /* line 24, ../bitpull/website/scss/_hero.scss */
+  .hero .wrapper article h2 {
+    font-size: 17px;
+  }
+}
+
+/* line 37, ../bitpull/website/scss/_hero.scss */
+.hero .wrapper article .bttn {
+  margin-top: 35px;
+}
+
+/* line 1, ../bitpull/website/scss/_signup.scss */
+.signup {
+  padding: 130px 0;
+}
+
+/* line 3, ../bitpull/website/scss/_signup.scss */
+.signup .wrapper {
+  text-align: center;
+}
+
+/* line 5, ../bitpull/website/scss/_signup.scss */
+.signup .wrapper h2 {
+  font-size: 38px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 0) and (max-width: 512px) {
+  /* line 5, ../bitpull/website/scss/_signup.scss */
+  .signup .wrapper h2 {
+    font-size: 30px;
+  }
+}
+
+/* line 19, ../bitpull/website/scss/_signup.scss */
+.signup .wrapper p {
+  font-size: 19px;
+  line-height: 22px;
+  color: #000;
+  font-family: Georgia;
+  font-style: italic;
+  color: #857F7F;
+  font-weight: normal;
+}
+
+@media (min-width: 0) and (max-width: 512px) {
+  /* line 19, ../bitpull/website/scss/_signup.scss */
+  .signup .wrapper p {
+    font-size: 17px;
+  }
+}
+
+/* line 31, ../bitpull/website/scss/_signup.scss */
+.signup .wrapper .form {
+  font-size: 0;
+  max-width: 570px;
+  margin: 50px auto 0 50px;
+  display: inline-block;
+}
+
+/* line 36, ../bitpull/website/scss/_signup.scss */
+.signup .wrapper .form input[type="text"] {
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-right: none;
+  color: #000;
+  line-height: 30px;
+  display: inline-block;
+  padding: 0 10px 0 10px;
+  font-size: 14px;
+  font-family: Georgia;
+  font-style: italic;
+}
+
+/* line 50, ../bitpull/website/scss/_signup.scss */
+.signup .wrapper .form input[type="submit"] {
+  background-color: #B58B20;
+  font-size: 14px;
+  border: 1px solid #000;
+  color: white;
+  line-height: 30px;
+  text-align: center;
+  display: inline-block;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: Georgia;
+}
+
+/* line 1, ../bitpull/website/scss/_footer.scss */
+footer {
+  padding: 60px 2% 60px 2%;
+  background-color: #eee;
+}
+
+/* line 4, ../bitpull/website/scss/_footer.scss */
+footer .wrapper {
+  font-size: 0;
+}
+
+/* line 6, ../bitpull/website/scss/_footer.scss */
+footer .wrapper .coll {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 25%;
+  width: 100%;
+  font-size: 20px;
+  position: relative;
+}
+
+/* line 13, ../bitpull/website/scss/_footer.scss */
+footer .wrapper .coll:after {
+  height: 100px;
+  width: 1px;
+  position: absolute;
+  right: 30px;
+  top: 0;
+  background-color: #999;
+  content: '';
+  display: block;
+}
+
+/* line 24, ../bitpull/website/scss/_footer.scss */
+footer .wrapper .coll:nth-of-type(4):after {
+  display: none;
+}
+
+@media (min-width: 0) and (max-width: 800px) {
+  /* line 6, ../bitpull/website/scss/_footer.scss */
+  footer .wrapper .coll {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+
+/* line 34, ../bitpull/website/scss/_footer.scss */
+footer .wrapper .coll ul li {
+  font-size: 13px;
+  color: #000;
+  margin: 0 0 10px 0;
+}
+
+/* line 38, ../bitpull/website/scss/_footer.scss */
+footer .wrapper .coll ul li:first-child {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+/* line 44, ../bitpull/website/scss/_footer.scss */
+footer .wrapper .coll ul li:last-child {
+  margin-bottom: 0;
+}
+
+/* line 47, ../bitpull/website/scss/_footer.scss */
+footer .wrapper .coll ul li a {
+  color: #000;
+}
+
+/* line 49, ../bitpull/website/scss/_footer.scss */
+footer .wrapper .coll ul li a:hover {
+  text-decoration: underline;
+}
+
+/* line 54, ../bitpull/website/scss/_footer.scss */
+footer .wrapper .coll ul li ul li {
+  display: inline-block;
+}
+
+/* line 56, ../bitpull/website/scss/_footer.scss */
+footer .wrapper .coll ul li ul li:first-child {
+  font-size: 13px;
+  font-weight: normal;
+}
+
+/* line 60, ../bitpull/website/scss/_footer.scss */
+footer .wrapper .coll ul li ul li img {
+  width: 30px;
+}
+
+/* line 71, ../bitpull/website/scss/_footer.scss */
+.lupa {
+  position: relative;
+  right: 13px;
+  top: -9px;
+}
+
+/* line 3, ../bitpull/website/scss/_grid.scss */
+.grid .wrapper .grid-container {
+  display: grid;
+  grid-template-columns: 320px 320px 320px 320px;
+  grid-template-rows: 320px 320px 320px;
+}
+
+@media (min-width: 0) and (max-width: 512px) {
+  /* line 3, ../bitpull/website/scss/_grid.scss */
+  .grid .wrapper .grid-container {
+    grid-template-columns: 120px 120px 120px 120px;
+    grid-template-rows: 120px 120px 120px 120px;
+  }
+}
+
+/* line 12, ../bitpull/website/scss/_grid.scss */
+.grid .wrapper .grid-container div {
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-color: #ccc;
+  transition: transform 0.2s;
+}
+
+/* line 20, ../bitpull/website/scss/_grid.scss */
+.grid .wrapper .grid-container div:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  z-index: 999;
+}
+
+/* line 26, ../bitpull/website/scss/_grid.scss */
+.grid .wrapper .grid-container div:nth-last-of-type(odd) {
+  background: #666;
+}
+
+/* line 29, ../bitpull/website/scss/_grid.scss */
+.grid .wrapper .grid-container div:nth-of-type(1) {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-color: #eee;
+}
+
+/* line 34, ../bitpull/website/scss/_grid.scss */
+.grid .wrapper .grid-container div:nth-of-type(7) {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background-color: #eee;
+}
+
+/* line 41, ../bitpull/website/scss/_grid.scss */
+.grid .wrapper .grid-container div article {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50);
+}
+
+/* line 45, ../bitpull/website/scss/_grid.scss */
+.grid .wrapper .grid-container div article h2 {
+  font-weight: 600;
+  font-size: 38px;
+  color: white;
+  -webkit-text-stroke: 1px black;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+@media (min-width: 0) and (max-width: 512px) {
+  /* line 45, ../bitpull/website/scss/_grid.scss */
+  .grid .wrapper .grid-container div article h2 {
+    font-size: 20px;
+  }
+}
+
+/* line 57, ../bitpull/website/scss/_grid.scss */
+.grid .wrapper .grid-container div article p {
+  font-weight: normal;
+  font-size: 19px;
+  font-style: italic;
+  color: white;
+  -webkit-text-stroke: 0.5px black;
+}
+
+@media (min-width: 0) and (max-width: 512px) {
+  /* line 57, ../bitpull/website/scss/_grid.scss */
+  .grid .wrapper .grid-container div article p {
+    font-size: 12px;
+  }
+}
+
+/* line 1, ../bitpull/website/scss/_navigation.scss */
+header {
+  padding-top: 20px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+/* line 5, ../bitpull/website/scss/_navigation.scss */
+header .wrapper {
+  font-size: 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #000;
+}
+
+@media (min-width: 0) and (max-width: 1024px) {
+  /* line 5, ../bitpull/website/scss/_navigation.scss */
+  header .wrapper {
+    text-align: center;
+  }
+}
+
+/* line 12, ../bitpull/website/scss/_navigation.scss */
+header .wrapper img {
+  display: inline-block;
+  width: 50px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+@media (min-width: 0) and (max-width: 1024px) {
+  /* line 12, ../bitpull/website/scss/_navigation.scss */
+  header .wrapper img {
+    margin-bottom: 20px;
+  }
+}
+
+/* line 21, ../bitpull/website/scss/_navigation.scss */
+header .wrapper nav {
+  display: inline-block;
+  max-width: calc(50% - 30px);
+  width: 100%;
+  vertical-align: middle;
+}
+
+@media (min-width: 0) and (max-width: 1024px) {
+  /* line 21, ../bitpull/website/scss/_navigation.scss */
+  header .wrapper nav {
+    max-width: 100%;
+    text-align: center;
+  }
+}
+
+/* line 31, ../bitpull/website/scss/_navigation.scss */
+header .wrapper nav ul li {
+  display: inline-block;
+  font-size: 18px;
+  margin-right: 4%;
+}
+
+/* line 35, ../bitpull/website/scss/_navigation.scss */
+header .wrapper nav ul li a {
+  color: #000;
+}
+
+/* line 37, ../bitpull/website/scss/_navigation.scss */
+header .wrapper nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* line 43, ../bitpull/website/scss/_navigation.scss */
+header .wrapper nav:nth-of-type(1) {
+  padding-left: 30px;
+}
+
+/* line 46, ../bitpull/website/scss/_navigation.scss */
+header .wrapper nav:nth-of-type(2) {
+  text-align: right;
+}
+
+@media (min-width: 0) and (max-width: 1024px) {
+  /* line 46, ../bitpull/website/scss/_navigation.scss */
+  header .wrapper nav:nth-of-type(2) {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+/* line 52, ../bitpull/website/scss/_navigation.scss */
+header .wrapper nav:nth-of-type(2) ul {
+  font-size: 0;
+}
+
+/* line 54, ../bitpull/website/scss/_navigation.scss */
+header .wrapper nav:nth-of-type(2) ul li {
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+/* line 57, ../bitpull/website/scss/_navigation.scss */
+header .wrapper nav:nth-of-type(2) ul li input[type="text"] {
+  padding: 10px;
+  color: #000;
+  border-radius: 4px;
+  border: 1px solid #999;
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* line 69, ../bitpull/website/scss/_navigation.scss */
+header .wrapper nav:nth-of-type(2) ul li a.search {
+  position: relative;
+  display: inline-block;
+  padding: 8px 12px;
+  border: 1px solid #666;
+  color: #FFF;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  vertical-align: middle;
+  max-width: 50px;
+  max-height: 50px;
+  background: #ebebf1;
+  background: linear-gradient(90deg, #ebebf1 100%, #00d4ff 100%, #00d4ff 100%, #020024 100%);
+}
+
+/* line 85, ../bitpull/website/scss/_navigation.scss */
+header .wrapper nav:nth-of-type(2) ul li:last-child {
+  margin-right: 0;
+  overflow: hidden;
+  position: relative;
+  transition: width 1s ease;
+  width: 33px;
+}
+
+/* line 91, ../bitpull/website/scss/_navigation.scss */
+header .wrapper nav:nth-of-type(2) ul li:last-child:hover {
+  width: 200px;
+}
+
+/* line 1, ../bitpull/website/scss/_slider.scss */
+.slider {
+  padding: 120px 0;
+}
+
+/* line 6, ../bitpull/website/scss/_slider.scss */
+.slider .wrapper .gallery div img {
+  width: 205px;
+  height: 334px;
+}
+
+@media (min-width: 0) and (max-width: 512px) {
+  /* line 6, ../bitpull/website/scss/_slider.scss */
+  .slider .wrapper .gallery div img {
+    transition: transform .2s;
+  }
+  /* line 11, ../bitpull/website/scss/_slider.scss */
+  .slider .wrapper .gallery div img:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+}
+
+/* line 23, ../bitpull/website/scss/_slider.scss */
+.slick-prev {
+  position: absolute;
+  top: 50%;
+  left: -116px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  width: 50px;
+  height: 36px;
+  line-height: 100px;
+  text-indent: -9999px;
+  background-image: url(https://www.cushionpros.com/img/left.png);
+  background-position: center;
+  border: 0;
+}
+
+@media (min-width: 0) and (max-width: 512px) {
+  /* line 23, ../bitpull/website/scss/_slider.scss */
+  .slick-prev {
+    display: none;
+  }
+}
+
+/* line 42, ../bitpull/website/scss/_slider.scss */
+.slick-next {
+  position: absolute;
+  top: 50%;
+  right: -116px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  width: 50px;
+  height: 36px;
+  line-height: 100px;
+  text-indent: -9999px;
+  background-image: url(https://i.ibb.co/d7FmXND/right.png);
+  background-position: center;
+  border: 0;
+}
+
+@media (min-width: 0) and (max-width: 512px) {
+  /* line 42, ../bitpull/website/scss/_slider.scss */
+  .slick-next {
+    display: none;
+  }
+}
+
+/* line 1, ../bitpull/website/scss/_numb_page.scss */
+.numb_page {
+  padding-top: 70px;
+  padding-bottom: 142px;
+}
+
+/* line 5, ../bitpull/website/scss/_numb_page.scss */
+.numb_page .wrapper h1 {
+  font-size: 25px;
+  margin-bottom: 17px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* line 12, ../bitpull/website/scss/_numb_page.scss */
+.numb_page .wrapper #myDIV {
+  text-align: center;
+}
+
+/* line 15, ../bitpull/website/scss/_numb_page.scss */
+.numb_page .wrapper #myDIV .btn {
+  background-color: white;
+  border: 1px solid #000;
+  margin: 10px 10px;
+  font-size: 14px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+/* line 23, ../bitpull/website/scss/_numb_page.scss */
+.numb_page .wrapper #myDIV .btn:hover {
+  background-color: #000;
+  color: white;
+}
+
+/* line 27, ../bitpull/website/scss/_numb_page.scss */
+.numb_page .wrapper #myDIV .btn.active {
+  background-color: #000;
+  color: white;
+}
+
+/* line 35, ../bitpull/website/scss/_numb_page.scss */
+.numb_page .wrapper .bttn {
+  position: relative;
+  left: 527px;
+  margin-top: 65px;
+}
+
+@media (min-width: 0) and (max-width: 512px) {
+  /* line 35, ../bitpull/website/scss/_numb_page.scss */
+  .numb_page .wrapper .bttn {
+    left: 172px;
+  }
+}
+
+/* line 46, ../bitpull/website/scss/_numb_page.scss */
+.select-size {
+  background-color: #000;
+  color: white;
+}
+
+/* line 3, ../bitpull/website/scss/_produtos.scss */
+.produtos .wrapper article {
+  text-align: center;
+}
+
+/* line 5, ../bitpull/website/scss/_produtos.scss */
+.produtos .wrapper article h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #4D4747;
+  margin-bottom: 18px;
+  margin-top: 106px;
+}
+
+/* line 12, ../bitpull/website/scss/_produtos.scss */
+.produtos .wrapper article a {
+  color: #4D4747;
+  font-size: 19px;
+  font-style: italic;
+  margin-bottom: 10px;
+  font-family: Georgia;
+}
+
+/* line 18, ../bitpull/website/scss/_produtos.scss */
+.produtos .wrapper article a:hover {
+  text-decoration: underline;
+}
+
+/* line 24, ../bitpull/website/scss/_produtos.scss */
+.produtos .wrapper .prod-list {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* line 31, ../bitpull/website/scss/_produtos.scss */
+.produtos .wrapper .prod-list .prod {
+  width: 100%;
+  max-width: 25%;
+  padding: 15px;
+  transition: transform .2s;
+}
+
+/* line 36, ../bitpull/website/scss/_produtos.scss */
+.produtos .wrapper .prod-list .prod:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+@media (min-width: 0) and (max-width: 1024px) {
+  /* line 31, ../bitpull/website/scss/_produtos.scss */
+  .produtos .wrapper .prod-list .prod {
+    max-width: 33.333%;
+  }
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+  /* line 31, ../bitpull/website/scss/_produtos.scss */
+  .produtos .wrapper .prod-list .prod {
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 0) and (max-width: 512px) {
+  /* line 31, ../bitpull/website/scss/_produtos.scss */
+  .produtos .wrapper .prod-list .prod {
+    max-width: 100%;
+  }
+}
+
+/* line 50, ../bitpull/website/scss/_produtos.scss */
+.produtos .wrapper .prod-list .prod .prod-info {
+  padding: 10px 15px;
+}
+
+/* line 52, ../bitpull/website/scss/_produtos.scss */
+.produtos .wrapper .prod-list .prod .prod-info .img-prod {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 56, ../bitpull/website/scss/_produtos.scss */
+.produtos .wrapper .prod-list .prod .prod-info .img-prod a img {
+  width: 100%;
+  height: auto;
+}
+
+/* line 1, ../bitpull/website/scss/_breadcrumb.scss */
+.breadcrumb {
+  padding: 42px 0;
+}
+
+/* line 5, ../bitpull/website/scss/_breadcrumb.scss */
+.breadcrumb .wrapper ul li {
+  display: inline-block;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #999;
+}
+
+/* line 10, ../bitpull/website/scss/_breadcrumb.scss */
+.breadcrumb .wrapper ul li:after {
+  content: '/';
+}
+
+/* line 14, ../bitpull/website/scss/_breadcrumb.scss */
+.breadcrumb .wrapper ul li:last-child:after {
+  display: none;
+}
+
+/* line 18, ../bitpull/website/scss/_breadcrumb.scss */
+.breadcrumb .wrapper ul li a {
+  color: blue;
+  text-transform: uppercase;
+}
+
+/* line 3, ../bitpull/website/scss/_product-detail.scss */
+.product-detail .wrapper .big {
+  width: 100%;
+  height: 90vh;
+  border: 1px solid #000;
+}
+
+/* line 8, ../bitpull/website/scss/_product-detail.scss */
+.product-detail .wrapper ul {
+  position: absolute;
+  right: 322px;
+  bottom: -92px;
+}
+
+@media (min-width: 0) and (max-width: 1280px) {
+  /* line 8, ../bitpull/website/scss/_product-detail.scss */
+  .product-detail .wrapper ul {
+    right: 38px;
+    bottom: -109px;
+  }
+}
+
+@media (min-width: 0) and (max-width: 1024px) {
+  /* line 8, ../bitpull/website/scss/_product-detail.scss */
+  .product-detail .wrapper ul {
+    right: 27px;
+    bottom: -226px;
+  }
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+  /* line 8, ../bitpull/website/scss/_product-detail.scss */
+  .product-detail .wrapper ul {
+    right: 26px;
+    bottom: -221px;
+  }
+}
+
+@media (min-width: 0) and (max-width: 512px) {
+  /* line 8, ../bitpull/website/scss/_product-detail.scss */
+  .product-detail .wrapper ul {
+    right: 21px;
+    bottom: -207px;
+  }
+}
+
+/* line 28, ../bitpull/website/scss/_product-detail.scss */
+.product-detail .wrapper ul li {
+  margin: 10px 0 10px 0;
+  border: 2px solid #000;
+}
+
+/* line 31, ../bitpull/website/scss/_product-detail.scss */
+.product-detail .wrapper ul li img {
+  width: 100px !important;
+}
+
+@media (min-width: 0) and (max-width: 512px) {
+  /* line 31, ../bitpull/website/scss/_product-detail.scss */
+  .product-detail .wrapper ul li img {
+    width: 80px !important;
+  }
+}
+
+/* line 44, ../bitpull/website/scss/_product-detail.scss */
+.selected {
+  border-color: yellow;
+}
+
+/* line 1, ../bitpull/website/scss/_product-description.scss */
+.description {
+  padding-top: 65px;
+}
+
+/* line 4, ../bitpull/website/scss/_product-description.scss */
+.description .wrapper article {
+  text-align: center;
+}
+
+/* line 6, ../bitpull/website/scss/_product-description.scss */
+.description .wrapper article .prod-name {
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 9px;
+  color: #4D4747;
+}
+
+/* line 12, ../bitpull/website/scss/_product-description.scss */
+.description .wrapper article .prod-number {
+  font-style: italic;
+  font-size: 14px;
+  color: #787373;
+  margin-bottom: 24px;
+}
+
+/* line 19, ../bitpull/website/scss/_product-description.scss */
+.description .wrapper article .price {
+  font-size: 18px;
+  font-style: italic;
+  color: #787373;
+  margin-bottom: 32px;
+}
+
+/* line 26, ../bitpull/website/scss/_product-description.scss */
+.description .wrapper article .prod-descript {
+  font-size: 14px;
+  color: #787373;
+}
+
+/* line 1, ../bitpull/website/scss/_suggestions.scss */
+.suggestions {
+  padding-bottom: 44px;
+}
+
+/* line 4, ../bitpull/website/scss/_suggestions.scss */
+.suggestions .wrapper article {
+  text-align: center;
+}
+
+/* line 6, ../bitpull/website/scss/_suggestions.scss */
+.suggestions .wrapper article h2 {
+  font-size: 24px;
+  font-style: italic;
+  color: #4D4747;
+  font-family: Georgia;
+  cursor: pointer;
+}
+
+/* line 12, ../bitpull/website/scss/_suggestions.scss */
+.suggestions .wrapper article h2:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=main.css.map */

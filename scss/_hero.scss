@@ -1,0 +1,44 @@
+.hero {
+    height: 70vh;
+    width: 100%;
+    /*background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+
+    .wrapper {
+        article {
+            text-align: center;
+            top: 50%;
+            transform: translateY(-50%);
+            position: relative;
+            h1 {
+                font-size: 78px;
+                color: $dark-color;
+                text-transform: uppercase;
+                margin-bottom: 28px;
+                @include sm {
+                    font-size: 55px;
+                }
+
+            }
+            h2 {
+                font-family: Georgia;
+                font-style: italic;
+                font-size: 23px;
+                letter-spacing: 0.05em;
+                text-indent: 1px;
+                margin-bottom: 28px;
+                color: $grey-color;
+                font-weight: bold;
+                @include sm {
+                    font-size: 17px;
+                }
+            }
+            .bttn {
+                margin-top: 35px;
+                
+
+            }
+        }
+    }
+}

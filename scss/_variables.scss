@@ -1,0 +1,31 @@
+$font:'Open Sans', sans-serif;
+
+$sm-width: 512px; 
+$md-width: 768px;
+$lg-width: 1024px;
+$xl-width: 1280px;
+
+@mixin sm {
+  @media (min-width: 0) and (max-width: #{$sm-width}) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (min-width: 0) and (max-width: #{$md-width}) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media (min-width: 0) and (max-width: #{$lg-width}) {
+    @content;
+  }
+}
+
+@mixin xl {
+  @media (min-width: 0) and (max-width: #{$xl-width}) {
+    @content;
+  }
+}
+

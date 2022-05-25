@@ -1,0 +1,69 @@
+.signup {
+    padding: 130px 0;
+    .wrapper {
+        text-align: center;
+        h2 {
+            font-size: 38px;
+            font-weight: 600;
+            color: $dark-color;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            @include sm {
+                font-size: 30px;
+
+            }
+
+            
+        }
+        p {
+            font-size: 19px;
+            line-height: 22px;
+            color: $dark-color;
+            font-family: Georgia;
+            font-style: italic;
+            color: $grey-color;
+            font-weight: normal;
+            @include sm {
+                font-size: 17px;
+            }
+        }
+        .form {
+            font-size: 0;
+            max-width: 570px;
+            margin: 50px auto 0 50px;
+            display: inline-block;
+            input[type="text"] {
+                border-top: 1px solid $dark-color;
+                border-left: 1px solid $dark-color;
+                border-bottom: 1px solid $dark-color;
+                border-right: none;
+                color: $dark-color;
+                line-height: 30px;
+                display: inline-block;
+                padding: 0 10px 0 10px;
+                font-size: 14px;
+                font-family: Georgia;
+                font-style: italic;
+
+            }
+            input[type="submit"] {
+                background-color: $secondary-color;
+                font-size: 14px;
+                border: 1px solid $dark-color;
+                color: $light-color;
+                line-height: 30px;
+                text-align: center;
+                display: inline-block;
+                text-transform: uppercase;
+                cursor: pointer;
+                font-family: Georgia;
+
+
+            }
+
+        }
+    }
+
+
+}

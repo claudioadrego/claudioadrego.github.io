@@ -1,0 +1,25 @@
+.breadcrumb{
+    padding: 42px 0;
+    .wrapper {
+        ul {
+            li{
+                display: inline-block;
+                font-size:12px;
+                text-transform: uppercase;
+                color: #999;
+                &:after{
+                    content:'/';
+                }
+                &:last-child{
+                    &:after{
+                        display: none;
+                    }
+                }
+                a{
+                    color:blue;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}

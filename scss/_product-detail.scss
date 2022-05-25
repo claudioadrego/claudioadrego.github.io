@@ -1,0 +1,46 @@
+.product-detail {
+    .wrapper {
+        .big {
+            width: 100%;
+            height: 90vh;
+            border: 1px solid $dark-color;
+        }
+        ul {
+            position: absolute;
+            right: 322px;
+            bottom: -92px;
+            @include xl {
+                right: 38px;
+                bottom: -109px;
+            }
+            @include lg {
+                right: 27px;
+                bottom: -226px;
+            }
+            @include md {
+                right: 26px;
+                bottom: -221px;
+            }
+            @include sm {
+                right: 21px;
+                bottom: -207px;
+            }
+            li {
+                margin: 10px 0 10px 0;
+                border: 2px solid $dark-color;
+                img {
+                    width: 100px !important;
+                    @include sm {
+                        width: 80px !important;
+                    }
+                    
+                }
+            }
+        }
+
+    }
+}
+
+.selected {
+    border-color: yellow;
+}
